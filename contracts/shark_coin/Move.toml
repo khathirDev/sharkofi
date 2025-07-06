@@ -1,0 +1,21 @@
+[package]
+name = "shark_coin"
+edition = "2024" # edition = "legacy" to use legacy (pre-2024) Move
+
+
+[dependencies]
+
+# Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet" }
+Sui = { local = "C:\\Users\\User\\sui\\crates\\sui-framework\\packages\\sui-framework" }
+[addresses]
+shark_coin = "0x0"
+sui = "0x2"
+shark_community = "0x084df90d56534e31fd3f030175ee0428ee88bdc932e8e15667e05afe69c354d8"
+shark_listing = "0x5b4b5905d384ec9b0c82e68572da147d04f16a2e58792a820113577f3418c7c4"
+
+
+[dev-dependencies]
+
+
+[dev-addresses]
+
